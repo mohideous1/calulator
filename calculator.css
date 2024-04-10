@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(32, 37, 48);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(87, 101, 109);
+    font-weight: bolder;
+    margin-top: 1%;
+}
+
+.bordor{
+    background-color: rgb(70, 102, 117);
+    margin-left: 31%;
+    margin-top: 1%;
+    border: 2px solid black;
+    width: 700px;
+    height: 700px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    color: white;
+}
+
+
+#inputValue2{
+    margin-left:12px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 150px;
+    font-weight: bold;
+}
+
+.buttons button{
+    margin: 5px;
+    font-weight: bold;
+}
+
+
+
+#result{
+    margin-top: 30%;
+    margin-left: 42%;
+    font-size: 22px;
+    color: white;
+}
